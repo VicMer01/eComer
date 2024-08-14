@@ -1,0 +1,6 @@
+@eComer.API1_HostAddress = http://localhost:5240
+
+GET {{eComer.API1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\eComer.DTO\eComer.DTO.csproj" />
+    <ProjectReference Include="..\eComer.Modelo\eComer.Modelo.csproj" />
+    <ProjectReference Include="..\eComer.Repositorio\eComer.Repositorio.csproj" />
+    <ProjectReference Include="..\eComer.Utilidades\eComer.Utilidades.csproj" />
+  </ItemGroup>
+
+</Project>
